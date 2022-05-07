@@ -1,32 +1,31 @@
 {
   "expo": {
-    "name": "technoyar_mentor",
-    "slug": "technoyar_mentor",
-    "version": "1.0.0",
+    "name": "Almahdi VIP Admin",
+    "slug": "technoyar_almahdi_admin",
+    "version": "1.0.2",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./src/assets/icon.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./src/assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#0e1621"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.technoyar.almahdi.admin"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
+        "foregroundImage": "./src/assets/adaptive.png",
+        "backgroundColor": "#276899"
+      },
+      "icon": "./src/assets/icon.png",
+      "package": "com.technoyar.almahdi.admin",
+      "versionCode": 1
     }
   }
 }
